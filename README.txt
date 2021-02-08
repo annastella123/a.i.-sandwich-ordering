@@ -118,8 +118,6 @@ constants.py contains all the dictionary to fetch keywords.
 
 Step 4:
 Example 1:
-
-Annas-iMac:Anna_Norte_Assign4 annanorte$ /usr/bin/python3 /Users/annanorte/Documents/Anna_Norte_Assign4/sandwich.py
  
 Welcome! You look hungry. 
 Well I can't see you, but you are here so I am going to assume you are hungry. Or maybe someone asked you to order 
@@ -305,12 +303,10 @@ extras: extra cheese
 
 
 Example 2:
-Annas-iMac:Anna_Norte_Assign4 annanorte$ /usr/bin/python3 /Users/annanorte/Documents/Anna_Norte_Assign4/sandwich.py
  
 Welcome! You look hungry. 
 Well I can't see you, but you are here so I am going to assume you are hungry. Or maybe someone asked you to order 
-them a sandwich becuase they are hungry. Is it your boyfriend? Or your husband maybe? Is he making you order him a 
-sandwich? Tell him to order his own sandwich because you are going to get a pedicure! Anyway. . .
+them a sandwich becuase they are hungry. Anyway. . .
 
 
 Would you like to see a menu?   no
@@ -486,7 +482,7 @@ extras:
 
 Example 3:
 Welcome! You look hungry. 
-Well I can't see you, but you are here so I am going to assume you are hungry. Or maybe someone asked you to order them a sandwich becuase they are hungry. Is it your boyfriend? Or your husband maybe? Is he making you order him a sandwich? Tell him to order his own sandwich because you are going to get a pedicure! Anyway. . .
+Well I can't see you, but you are here so I am going to assume you are hungry. Or maybe someone asked you to order them a sandwich becuase they are hungry. Anyway. . .
 
 
 Would you like to see a menu?   nope
@@ -837,6 +833,11 @@ cheese: gouda
 spread: vinegarette
 toasted: not toasted
 extras: 
+
+
+
+Example 4 added bacon instead of replacing it. The check meat function never removes anything unless the user says they don't want the meat they already have.
+
 
 
 
